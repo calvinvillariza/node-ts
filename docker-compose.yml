@@ -1,0 +1,7 @@
+version: '1'
+services:
+dev:
+image:
+node: 10
+volumes: - F:\CALVIN_FILES\nodejs\phase_two\node-ts\dist
+working_dir: F:\CALVIN_FILES\nodejs\phase_two\node-ts\dist

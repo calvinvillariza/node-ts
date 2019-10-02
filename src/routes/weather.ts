@@ -27,6 +27,9 @@ router.get("/:city", (req: Request, res: Response) => {
              case "tokyo":
                   result = { degree: "21C", status: "sunny" };
                   break;
+               case 'dgte':
+                    result = { degree: "40C", status: "init kaayo!" };
+                    break;
              default:
                   resultNotFound = true;
       }
