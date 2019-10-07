@@ -41,9 +41,11 @@
   },
   "dependencies": {
     "@types/node": "^12.7.9",
+    "@types/web-push": "^3.3.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "web-push": "^3.4.0"
   }
 }
